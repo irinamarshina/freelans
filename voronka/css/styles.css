@@ -1,0 +1,344 @@
+a:hover {
+    cursor: pointer;
+	text-decoration:none;
+}
+nav.navbar.navbar-expand-md{
+	display: flex;
+    justify-content: space-between;
+	padding: 0;
+}
+.navbar-brand {
+    color: #66ccff !important;
+    font-size: 30px;
+	padding:0 !important;
+}
+.bg-transparent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav-link {
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    line-height: 24px;
+    padding: 0 20px;
+}
+img.background-img{
+    position: relative;
+    width: 100%;
+	height:100%;
+}
+header.masthead{
+    font-family: 'Comfortaa', cursive;
+}
+header.masthead h1{
+    position: absolute;
+    top: 17%;
+    left: 40%;
+    font-size: 38px;
+    line-height: 40px;
+	}
+header.masthead .header-click{
+	position: absolute;
+    top: 60%;
+	left: 65%;
+}
+.level-up {
+    margin-bottom: 0;
+	background:#fff;
+}
+.level-up {
+    text-align:right;
+}
+.level-up div.level-up-text{
+	font-size: 30px;
+    line-height: 34px;
+    position: absolute;
+    top: 15%;
+    left: 0;
+}
+.level-up-click{
+	position: absolute;
+    top: 45%;
+    left: 30%;
+}
+.our-prime img{
+	width: 50%;
+    margin-left: 25% !important;
+}
+header.masthead {
+    /*min-height: 300px;*/
+    padding-bottom: 0;
+}
+
+h1.display-7{
+	font-family:'Comfortaa', cursive;
+	text-align:center;
+	margin-bottom: 0!important;
+	color:#5ec7e7;
+}
+.display-middle-center{
+	font-size:24px;
+	text-align:center;
+	line-height:28px;
+}
+.click-comment{
+	font-family: 'Comfortaa', cursive;
+    color: #5ec7e7 !important;
+    font-size: 30px;
+    line-height: 34px;
+}
+img.click-hand{
+	width: 55px;
+    height: 63px;
+	margin: 10px;
+}
+.jumbotron {
+	background:#f0f0f0;
+	margin-bottom:25px;
+	padding: 3rem;
+	font-family:'Comfortaa', cursive;
+}
+.card img {
+    width: 100%;
+}
+.contact-us{
+	background:#f0f0f0;
+	padding: 25px;
+}
+.contact-us .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.9;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: none;
+    border-radius: 0;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.contact-us label{
+	font-size: 24px;
+    margin-bottom: 27px;
+	font-family: 'Comfortaa', cursive;
+}
+.contact-us .field-row .buttons-holder{
+	margin-top:20px;
+}
+
+.btn-click-hand{
+	background-image: url(../img/click-hend.png);
+    color: transparent;
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 63px;
+    border: none;
+    background-color: transparent;
+    background-position: center;
+    background-size: contain;
+}
+.navigation{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+h1.display-7{
+	font-family:'Comfortaa', cursive;
+	text-align:center;
+	margin-bottom: 0!important;
+	color:#5ec7e7;
+	text-transform: uppercase;
+}
+.display-low{
+	font-size:14px;
+}
+
+/*footer*/
+footer .collapse.navbar-collapse{
+	padding-bottom: 35px;
+    font-weight: 600;
+}
+footer{
+	background:#5ec7e7;
+	color:rgba(255, 255, 255, 0.75);
+	
+}
+footer .navbar-brand {
+    color: #fff !important;
+    font-size: 30px;
+	padding:0 !important;
+}
+footer p{
+	margin:0;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer .footer-link{
+	text-decoration: none;
+	color:rgba(255, 255, 255, 0.75);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer .footer-link:hover{
+	text-decoration: underline;
+	color:rgba(255, 255, 255, 0.5);
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+	header.masthead h1 {
+    font-size: 32px;
+    line-height: 36px;
+}
+.level-up div.level-up-text {
+    font-size: 26px;
+    line-height: 30px;
+}
+}
+@media (min-width: 771px) and (max-width: 990px) {
+	header.masthead h1 {
+    font-size: 24px;
+    line-height: 28px;
+}
+.nav-link {
+    font-size: 18px;
+    line-height: 18px;
+}
+.level-up div.level-up-text {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+}
+.click-comment {
+    font-family: 'Comfortaa', cursive;
+    color: #5ec7e7 !important;
+    font-size: 20px;
+    line-height: 22px;
+}
+img.click-hand {
+    width: 33px;
+    height: 38px;
+    margin: 5px 10px;
+}
+}
+@media (min-width: 576px) and (max-width: 770px) {
+	.navbar-brand {
+    font-size: 20px;
+	}
+	.nav-link {
+		color: rgba(255, 255, 255, 1);
+		font-size: 12px;
+		line-height: 12px;
+		padding: 0 10px;
+	}
+	header.masthead h1{
+		position: absolute;
+		top: 15%;
+		left: 40%;
+		font-size: 18px;
+		line-height: 18px;
+	}
+	header.masthead .header-click{
+		position: absolute;
+		top: 60%;
+		left: 58%;
+	}
+	.click-comment {
+		font-size: 18px;
+		line-height: 20px;
+	}
+	img.click-hand {
+		width: 33px;
+		height: 38px;
+		margin: 5px;
+	}
+	.level-up div.level-up-text{
+		font-size: 18px;
+		line-height: 20px;
+		position: absolute;
+		top: 15%;
+		left: 0;
+	}
+	.level-up-click {
+		position: absolute;
+		top: 50%;
+		left: 30%;
+	}
+	.display-middle-center{
+		font-size:18px;
+		text-align:center;
+		line-height:14px;
+	}
+	h1.display-7{
+		font-size: 18px;
+	}
+	.jumbotron {
+		padding: 1rem;
+	}
+	.contact-us label {
+		font-size: 14px;
+	}
+	.btn-click-hand {
+		width: 33px;
+		height: 35px;
+	}
+}
+@media (max-width: 576px) {
+	.navbar-brand {
+    font-size: 12px;
+	}
+	.nav-link {
+		font-size: 6px;
+		line-height: 6px;
+		padding: 0 10px;
+	}
+	header.masthead h1{
+		top: 20%;
+		font-size: 10px;
+		line-height: 12px;
+	}
+	header.masthead .header-click{
+		position: absolute;
+		top: 60%;
+		left: 58%;
+	}
+	.click-comment {
+		font-size: 10px;
+		line-height: 12px;
+	}
+	img.click-hand {
+		width: 13px;
+		height: 15px;
+		margin: 5px 5px 5px 20px;
+	}
+	.level-up div.level-up-text{
+		font-size: 10px;
+		line-height: 10px;
+		text-align: left;
+		}
+	.level-up-click {
+		position: absolute;
+		top: 50%;
+		left: 30%;
+	}
+	.display-middle-center{
+		font-size:12px;
+		text-align:center;
+		line-height:14px;
+	}
+	h1.display-7{
+		font-size: 12px;
+	}
+	.jumbotron {
+		padding: 1rem;
+	}
+	.contact-us label {
+		font-size: 14px;
+	}
+	.btn-click-hand {
+		width: 13px;
+		height: 15px;
+	}
+	.buttons-holder .click-comment{
+	font-size:16px;
+}
+}
